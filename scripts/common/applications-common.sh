@@ -8,7 +8,8 @@ echo "Installing applications"
 # Utilities
 
 brew cask install flycut
-brew cask install shiftit
+brew cask install spectacle
+Brew cask install bear
 echo
 echo "configure shiftit to select 1/3 screen width, 1/2 screen width and 2/3 screen width:"
 echo "`defaults write org.shiftitapp.ShiftIt multipleActionsCycleWindowSizes YES`"
